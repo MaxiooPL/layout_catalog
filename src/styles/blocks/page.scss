@@ -1,6 +1,0 @@
-.page {
-  font-family: Roboto, sans-serif;
-  color: getcolor('primary-text-color');
-
-  @include font($font-weight-m, $font-size-xl, $line-height-l);
-}
