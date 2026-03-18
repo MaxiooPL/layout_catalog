@@ -15,7 +15,7 @@
     display: block;
     width: 100%;
   }
-  &__image img {
+  &__image product__image {
     display: block;
     width: $product-picture-width;
     height: $product-picture-height;
@@ -40,7 +40,7 @@
     @include font($font-weight-s, $font-size-xs, $line-height-s);
 
     color: getcolor('secondary-text-color');
-    margin-bottom: 16px;
+    margin-bottom: $margin-medium;
   }
 
   &__rating {
@@ -80,7 +80,7 @@
 
     @include border(1px, getcolor('blue-accent-color'));
 
-    border-radius: 5px;
+    border-radius: $product-card-border-radius;
     background-color: getcolor('blue-accent-color');
     color: getcolor('primary-white-color');
 
